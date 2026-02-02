@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Story</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<section class="hero">
+  <h1>To Us, Always</h1>
+  <p>A place where our love lives forever</p>
+</section>
+
+<section class="gallery">
+  <div class="memory" id="firstMemory">
+    <img src="images/IMG_8715.jpg">
+    <div class="caption">The moment I chose you</div>
+  </div>
+</section>
+<section class="story">
+
+  <div class="story-block">
+  <p
+  class="handwritten-paragraph type-on-scroll"
+  data-text="I never planned for you, yet somehow you arrived at the exact moment my life needed meaning.
+You came quietly and unexpectedly, and before I even realized it, you became my safest place.
+
+Thank you for being with me, for choosing me every day, and for turning ordinary moments into memories I want to keep forever.
+Somewhere along the way, you became more important to me than my fears, my doubts, and even more than myself.
+
+Loving you now feels effortless, natural, and true —
+as if my heart had always known it was waiting for you."
+></p>
+
+</div>
+<!-- Feather Cursor -->
+<div id="feather"></div>
+
+<!-- Writing Sound -->
+<audio id="inkSound" src="https://files.catbox.moe/4xq3zv.mp3" preload="auto"></audio>
+
+
+
+</section>
+
+
+<!-- Valentine Screen -->
+<div class="valentine-screen" id="valentineScreen">
+  <div class="valentine-text" id="typeText"></div>
+</div>
+
+<!-- Final Image Screen -->
+<div class="final-screen" id="finalScreen">
+  <div class="final-overlay"></div>
+</div>
+
+<!-- Libraries -->
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+<!-- Background Music -->
+<audio id="bgMusic" src="https://files.catbox.moe/3nlyua.ogg"></audio>
+
+<!-- Slideshow Screen -->
+<div class="slideshow-screen" id="slideshowScreen">
+  <div class="slideshow-image" id="slide1"></div>
+  <div class="slideshow-image" id="slide2"></div>
+  <div class="slideshow-image" id="slide3"></div>
+  <div class="slideshow-image" id="slide4"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
