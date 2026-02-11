@@ -160,21 +160,26 @@ body {
 }
 
 #slide1 {
-  background-image: url("images/IMG_8713.jpg");
+  background-image: url("images/i1.jpeg");
   animation-delay: 0s;
 }
 #slide2 {
-  background-image: url("images/IMG_8715.jpg");
+  background-image: url("images/i2.jpeg");
   animation-delay: 6s;
 }
 #slide3 {
-  background-image: url("images/nanaa.jpeg");
+  background-image: url("images/14.jpeg");
   animation-delay: 12s;
 }
 #slide4 {
-    background-image: url("images/nandhu.jpeg");
+    background-image: url("images/i5.jpeg");
     animation-delay: 18s;
 }
+#slide5 {
+  background-image: url("images/i3.jpeg");
+  animation-delay:24s;
+}
+
 @keyframes slideshow {
   0% {
     opacity: 0;
